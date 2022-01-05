@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="3dp"
+              android:gravity="center"
+              android:background="#2196F3">
+
+    <TextView
+            android:id="@+id/testId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="6sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Contact"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="3.5sp"
+            android:textColor="#fff"
+            android:text="Name: "/>
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="3.5sp"
+            android:textColor="#E0DDDD"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="3.5sp"
+            android:textColor="#fff"
+            android:text="Email: "/>
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="3.5sp"
+            android:textColor="#E0DDDD"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="3.5sp"
+            android:textColor="#fff"
+            android:text="Phone: "/>
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="3.5sp"
+            android:textColor="#E0DDDD"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="3.5sp"
+            android:textColor="#fff"
+            android:text="LinkedIn: "/>
+        <TextView
+            android:id="@+id/txtLinkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="3.5sp"
+            android:textColor="#E0DDDD"
+            android:text=""/>
+    </LinearLayout>
+</LinearLayout>
